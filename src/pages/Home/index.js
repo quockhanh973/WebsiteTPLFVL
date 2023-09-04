@@ -1,7 +1,12 @@
+import styles  from './style.module.scss';
+
 const Home = () => {
     return ( 
         <>
-            Home Page
+            <div className={styles.banner}>
+                 
+            </div>
+            Content
         </>
      );
 }

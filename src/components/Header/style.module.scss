@@ -1,0 +1,38 @@
+/* style.module.css */
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgb(241, 239, 239);
+    padding: 6px 0px;
+    line-height: 3rem;
+    background-color: #fff;
+    z-index: 1;
+}
+.navbar {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+  
+.navbar li{
+    margin-right: 30px;
+    
+}
+  
+.navLink {
+    color: #0a0a0a;
+    text-decoration: none; /* Loại bỏ dấu gạch chân */
+    font-size: 20px;
+}
+.navLink:hover {
+    cursor: pointer;
+    color: rgb(221, 51, 9);
+}  
