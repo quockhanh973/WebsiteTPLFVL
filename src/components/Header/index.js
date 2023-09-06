@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Outlet, NavLink } from 'react-router-dom';
 import { publicRoutes } from '../../routes';
 import DefaultLayout from '../Layout/DefaultLayout';
-import styles from './style.module.scss';
+import header from './header.module.scss';
 import fvlLogo from '../../Image/Home/FVL_Logo.png'
 import tplLogo from '../../Image/Home/TPL_Logo.png'
 
@@ -11,17 +11,17 @@ const Header = () => {
 
   return (
     <BrowserRouter>
-       <nav className={styles.nav}>
-        <div className={styles.logo}>
-           <NavLink to='/'><img src={fvlLogo} alt="Logo FVL" className={styles.logoFVL} /></NavLink>
-           <NavLink to='/'><img src={tplLogo} alt="Logo FVL" className={styles.logoTPL}/></NavLink>
+       <nav className={header.nav}>
+        <div className={header.logo}>
+           <NavLink to='/'><img src={fvlLogo} alt="Logo FVL" className={header.logoFVL} /></NavLink>
+           <NavLink to='/'><img src={tplLogo} alt="Logo FVL" className={header.logoTPL}/></NavLink>
         </div>
         
-        <ul className={styles.navbar}>
+        <ul className={header.navbar}>
             {navbarList.map((navbarItem, index) => {
               return (
                 <li key={index}>
-                  <NavLink to={navbarItem} className={`${styles.navLink}`}> {/* Thêm lớp CSS noUnderline */}
+                  <NavLink to={navbarItem} className={`${header.navLink}`}> {/* Thêm lớp CSS noUnderline */}
                     {navbarItem}
                   </NavLink>
                 </li>
