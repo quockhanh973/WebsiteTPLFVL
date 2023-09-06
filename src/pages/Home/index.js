@@ -1,12 +1,15 @@
+import stylepages from '../stylepages.module.scss';
 import styles  from './style.module.scss';
 
 const Home = () => {
     return ( 
         <>
-            <div className={styles.banner}>
+            <div className={`${styles.banner} ${stylepages.banner}`}>
                  
             </div>
-            Content
+            <div className={`${stylepages.content} ${styles.content}`}>
+                content
+            </div>
         </>
      );
 }

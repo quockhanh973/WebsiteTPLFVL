@@ -9,22 +9,26 @@
     align-items: center;
     margin: 0px;
     position: fixed;
+    text-transform: uppercase;
     width: 100%;
     border-bottom: 1px solid rgb(241, 239, 239);
-    padding: 6px 0px;
+    padding: 10px 0px;
     line-height: 3rem;
     background-color: #fff;
+    font-weight: 600;
     z-index: 1;
+
 }
 .navbar {
     list-style-type: none;
     display: flex;
-    float: right;
+    
+    justify-content: center;
+    margin-left: 50px
 }
   
 .navbar li{
-    margin-right: 30px;
-    
+    margin: 0px 15px;
 }
   
 .navLink {
@@ -36,3 +40,20 @@
     cursor: pointer;
     color: rgb(221, 51, 9);
 }  
+
+.logo {
+    display: flex; 
+    justify-content: left;
+}
+.logoFVL{
+    height: 36px;
+    width: 151.7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+.logoTPL{
+    height: 36px;
+    width: 87.9px;
+    margin: auto
+}
