@@ -1,55 +1,7 @@
 /* style.module.css */
-*{
-    padding: 0;
-    margin: 0;
-}
-.nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    position: fixed;
-    text-transform: uppercase;
-    width: 100%;
-    border-bottom: 1px solid rgb(241, 239, 239);
-    padding: 10px 0px;
-    line-height: 3rem;
-    background-color: #fff;
-    font-weight: 600;
-    z-index: 1;
-
-}
-.navbar {
-    list-style-type: none;
-    display: flex;
-    
-    justify-content: center;
-    margin-left: 50px
-}
-  
-.navbar li{
-    margin: 0px 15px;
-}
-  
-.navLink {
-    color: #0a0a0a;
-    text-decoration: none; /* Loại bỏ dấu gạch chân */
-    font-size: 20px;
-}
-.navLink:hover {
-    cursor: pointer;
-    color: rgb(221, 51, 9);
-}  
-
-.logo {
-    display: flex; 
-    justify-content: left;
-}
 .logoFVL{
     height: 36px;
-    width: 151.7px;
-    padding-right: 10px;
-    padding-left: 10px;
+    width: 140px;
     margin: auto;
 }
 .logoTPL{
